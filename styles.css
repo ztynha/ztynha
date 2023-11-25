@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cabin', sans-serif;
+
+
+
+}
+
+
+body {
+    background: url("./img/mercado.jpg");
+
+}
+
+
+.container {
+    background-color: rgb(214, 21, 15);
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+
+
+
+}
+
+
+.input-task {
+
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+
+
+}
+    
+
+    
+
+    .button-add-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        background-color: rgb(43, 192, 13);
+        color: rgb(244, 241, 245);
+        font-size: 17px;
+        padding: 0 15px;
+        float: right;
+        cursor: pointer;
+        font-weight: 700;
+
+
+    }
+
+    .button-add-task:hover {
+
+        opacity: 0.8;
+
+    }
+
+
+    .button-add-task:active {
+
+        opacity: 0.6;
+    }
+
+
+.list-task {
+
+ width: 300px;   
+list-style: none;
+margin-top: 30px;
+
+
+}
+
+
+.task {
+
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; ;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 5px;
+border-radius: 5PX;
+margin-bottom: 20PX;
+
+
+
+}
+
+
+
+
+
+    img {
+        height: 25px;
+opacity: 0;
+transition: opacity 0.5s ease-in-out;
+    }
+
+
+    .task:hover img {
+opacity: 1;
+
+    }
+    .done {
+
+background-color: rgb(43, 192, 13) ;
+text-decoration: line-through;
+    }
+
+.nome-zty {
+
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    text-align: center 
+    font-size: 20px;
+    color: rgb(244, 241, 245);
+    
+}
+
+.calend {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 15px;
+    padding-left: 5px;
+    margin-bottom: 20PX;
+  
+    
+
+}
